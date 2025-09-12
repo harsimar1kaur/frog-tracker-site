@@ -1,18 +1,16 @@
-import React, {useState} from 'react' 
+import React from 'react';
+import './Navbar.css'; 
+import frogLogo from '../assets/frog.png';
 
-
-export default function Navbar() {
+const Navbar = () => {
   return (
-    <>
-        <nav className="navbar">
-            <div className="navbar-container">
-                <Link to="/" className="navBar-logo">
-                TRVL
-                </Link>
 
-            </div>
-        </nav>
-      
-    </>
-  )
-}
+<nav className="navbar">
+  <div className="navbar-left"> 
+    <img src={frogLogo} alt="FrogTracker Logo" className="logo-img" />
+  </div>
+</nav>
+);
+};
+
+export default Navbar;

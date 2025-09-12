@@ -1,0 +1,21 @@
+.navbar {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(158, 219, 158);
+    color :rgb(206, 202, 198);
+    padding: 1rem;
+}
+
+.navbar-left .logo {
+    font-size: 1.5rem;
+    font-weight : bold;
+    text-decoration: none;
+}
+
+.logo-img {
+   height: 200px;   /* frog is big */
+  width: auto;
+  margin-top: -90px;  /* push it upward */
+  margin-bottom: -80px; /* pull it down */
+}
