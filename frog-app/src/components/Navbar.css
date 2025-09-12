@@ -19,3 +19,44 @@
   margin-top: -90px;  /* push it upward */
   margin-bottom: -80px; /* pull it down */
 }
+
+.navbar-center .nav-links a {
+  color: #022514;       
+  text-decoration: none; 
+  font-weight: 600;
+  cursor: pointer;       
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar-center .nav-links {
+  list-style: none; 
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+}
+
+.navbar-center .nav-links a:hover {
+  color: #528165; 
+}
+
+.navbar-right .nav-links2 a {
+  color: #022514;       
+  text-decoration: none; 
+  font-weight: 600;
+  cursor: pointer;       
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar-right .nav-links2 {
+  list-style: none; 
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+} 
+
+.navbar-right .nav-links2 a:hover {
+    color: #528165;
+}
+
