@@ -7,9 +7,11 @@ const Navbar = () => {
 
 <nav className="navbar">
   <div className="navbar-left"> 
-    <img src={frogLogo} alt="FrogTracker Logo" className="logo-img" />
+    <a href="/" className="logo">
+      <img src={frogLogo} alt="FrogTracker Logo" className="logo-img" />
+    </a>
   </div>
-  
+
   <div className='navbar-center'>
     <ul className="nav-links">
       <li>
@@ -31,8 +33,11 @@ const Navbar = () => {
       </li>
     </ul>
   </div>
+
 </nav>
 );
 };
+
+ 
 
 export default Navbar;
