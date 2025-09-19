@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css'; 
 import frogLogo from '../assets/frog.png';
+import { Link } from "react-router-dom"; 
 
 const Navbar = () => {
   return (
@@ -15,13 +16,13 @@ const Navbar = () => {
   <div className='navbar-center'>
     <ul className="nav-links">
       <li>
-        <a href="/faq">HOME</a>
+        <Link to="/home">HOME</Link>
       </li>
       <li>
-        <a href="/help"> ABOUT </a>
+        <Link to="/about"> ABOUT </Link>
       </li>
        <li>
-        <a href="/help"> CONTACT </a>
+        <Link to="/contact"> CONTACT </Link>
       </li>
     </ul>
   </div>
