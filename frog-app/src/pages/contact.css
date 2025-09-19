@@ -1,0 +1,35 @@
+.contact-page {
+    padding-top:30px
+}
+
+.contact-bg {
+ text-align: center;
+ margin-top: -31px;   
+}
+.contact-img {
+    width: 400;
+    margin-top:-30px
+}
+
+.contact-info {
+  background-color: rgb(177, 226, 177);
+  min-height: 100vh;
+  background-image: url("../assets/border.png");
+  background-size: 30%;       
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border:10px solid;
+
+  font-family: cursive;
+  font-size: 1.1rem;
+  color: #022514;
+  line-height: 1.4;
+
+  margin-top:-394px;
+  padding: -20px;
+}

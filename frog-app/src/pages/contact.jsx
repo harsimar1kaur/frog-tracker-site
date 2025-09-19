@@ -1,3 +1,22 @@
+import ContactImage from '../assets/Contact.png';
+import './contact.css'
+
 export default function Contact() {
-    return <h1>Contact</h1>;
+    return (
+    <div className="contact-page">
+        <div className="contact-bg">
+            <img src={ContactImage} alt="Contact" className="contact-img" />
+        </div>
+
+        <div className="contact-info">
+            <p>Hi there! Do you have any questions? <br/>
+               You can reach out to me at: .email <br/>
+               Alternatively, you can also follow me <br/> 
+               on Instagram @frog and get support there! <br/>
+               Looking forward to connecting with you!  
+            </p>
+        </div>
+    </div>
+    
+    );
 }
