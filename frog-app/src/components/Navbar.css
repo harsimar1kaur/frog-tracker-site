@@ -2,7 +2,7 @@
     display : flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(158, 219, 158);
+    background-color: rgb(134, 199, 134);
 
     background-image: url('../assets/mini.png');
     background-repeat: repeat-x; 
