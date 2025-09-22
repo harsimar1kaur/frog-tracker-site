@@ -1,3 +1,12 @@
+import './tracker.css';
+
+
 export default function Tracker() {
-    return <h1>Tracker</h1>;
+    return (
+    <div className='tracker-page'>
+        <h1>
+            Tracker
+        </h1>
+    </div>
+    );
 }

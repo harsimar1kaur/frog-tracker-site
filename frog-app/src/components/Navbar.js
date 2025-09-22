@@ -8,9 +8,9 @@ const Navbar = () => {
 
 <nav className="navbar">
   <div className="navbar-left"> 
-    <a href="/" className="logo">
+    <Link to="/tracker" className="logo">
       <img src={frogLogo} alt="FrogTracker Logo" className="logo-img" />
-    </a>
+    </Link>
   </div>
 
   <div className='navbar-center'>
@@ -30,7 +30,7 @@ const Navbar = () => {
   <div className='navbar-right'>
     <ul className="nav-links2">
       <li>
-        <a href="/faq">SIGN IN</a>
+        <Link to="/sign-in"> SIGN-IN </Link>
       </li>
     </ul>
   </div>
