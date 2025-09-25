@@ -2,9 +2,12 @@
   display: flex;
   justify-content: center;   
   align-items: center;      
-  gap: 8rem;                 
+  gap: -1rem;                 
   background-color: rgb(177, 226, 177);
   min-height: 100vh;
+
+  background-image: url(../assets/Lilyp.png);
+  background-repeat: repeat;
 }
 
 .tracker-left {
@@ -30,3 +33,17 @@
   justify-content: center;
   font-weight: bold;
 }
+
+.tracker-middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tracker-image {
+  width: 250px;
+  height: auto;
+}
+
+/* add lily pads or something frog themed to background in tracker page
+*/
