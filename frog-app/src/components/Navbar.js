@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbar.css'; 
+import '../styles/Navbar.css'; 
 import frogLogo from '../assets/frog.png';
 import { Link } from "react-router-dom"; 
 
