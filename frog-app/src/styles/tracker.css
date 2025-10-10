@@ -62,7 +62,7 @@
   color: #022514;
 }
 
-.green-btn {
+.plus-btn {
   position: absolute;  
   color:#022514;
   font-size:40px;
@@ -70,7 +70,7 @@
   right: 15px;  
 }
 
-.green-btn:hover {
+.plus-btn:hover {
   background-color: #6d8b6d;         
   transform: scale(1.1);
   box-shadow: 0 0 20px rgba(92, 199, 91, 0.7);
@@ -81,3 +81,4 @@
   color: transparent;
   transform: scale(1.1)
 }
+
