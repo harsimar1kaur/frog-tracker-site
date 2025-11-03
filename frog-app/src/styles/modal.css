@@ -69,6 +69,6 @@
 }
 
 .priority-option.selected {
-    color:black;
-    text-decoration:underline;
+    background-color: rgb(224, 240, 233);
+    transform: scale(1.1);
 }

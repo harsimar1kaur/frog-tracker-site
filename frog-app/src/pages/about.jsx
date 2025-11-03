@@ -10,8 +10,11 @@ export default function About() {
                 The purpose of this project is to make
                 a gamified habit tracker. As you complete
                 tasks you will gain xp that can be used to 
-                grow your frog.
+                grow your frog. Sign in to save your progress! 
             </h2>
+            
         </div>
     );
 }
+
+// if signed in don't say the portion about saving progress implement this feature later!!
