@@ -4,7 +4,7 @@ import { getAnalytics } from "firebase/analytics";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBGXVKozPGl5jifGosGMxJo9hNAvzDuFf0",
+  apiKey: "AIzaSyAI32CW3zbd3vfu_p5IlyVOwWYy3kjTfhE",
   authDomain: "frogtracker-7adb6.firebaseapp.com",
   projectId: "frogtracker-7adb6",
   storageBucket: "frogtracker-7adb6.firebasestorage.app",
