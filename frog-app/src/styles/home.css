@@ -1,17 +1,80 @@
+
 .home-page {
-    text-align: center;
-    background-color: rgb(177, 226, 177);
     min-height: 100vh;
-    margin-top: -1px;
-    
-    border:10px solid;
-    color: #022514
-
-
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgb(177, 226, 177);
 }
 
+.home-content {
+    max-width: 700px;
+    text-align: center;
+    background-color: white;
+    padding: 3rem 2rem;
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
 
+.home-tag {
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 0.4rem 0.9rem;
+    border-radius: 999px;
+    background-color: #dcfce7;
+    color: #166534;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
 
-/* Home page with drawing of frog, play button, setting button 
-*/
+.home-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #14532d;
+}
+
+.home-content h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    color: #374151;
+}
+
+.home-description {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #4b5563;
+    margin-bottom: 2rem;
+}
+
+.home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.home-btn {
+    padding: 0.85rem 1.4rem;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.home-btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.95;
+}
+
+.primary-btn {
+    background-color: #22c55e;
+    color: white;
+}
+
+.secondary-btn {
+    background-color: #f3f4f6;
+    color: #111827;
+}
